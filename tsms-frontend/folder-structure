@@ -1,0 +1,77 @@
+tsms-frontend/
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Layout.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Footer.jsx
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Input.jsx
+│   │   │   ├── Table.jsx
+│   │   │   └── Card.jsx
+│   │   ├── students/
+│   │   │   ├── StudentList.jsx
+│   │   │   ├── StudentForm.jsx
+│   │   │   └── StudentDetails.jsx
+│   │   ├── teachers/
+│   │   │   ├── TeacherList.jsx
+│   │   │   ├── TeacherForm.jsx
+│   │   │   └── TeacherDetails.jsx
+│   │   ├── classes/
+│   │   │   ├── ClassList.jsx
+│   │   │   └── ClassForm.jsx
+│   │   ├── tests/
+│   │   │   ├── TestSchedule.jsx
+│   │   │   └── TestResults.jsx
+│   │   └── facilities/
+│   │       ├── FacilityList.jsx
+│   │       └── FacilityForm.jsx
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── Students.jsx
+│   │   ├── Teachers.jsx
+│   │   ├── Classes.jsx
+│   │   ├── Tests.jsx
+│   │   ├── Facilities.jsx
+│   │   └── Reports.jsx
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── auth.js
+│   │   ├── students.js
+│   │   ├── teachers.js
+│   │   └── tests.js
+│   ├── utils/
+│   │   ├── constants.js
+│   │   ├── helpers.js
+│   │   └── validation.js
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   └── useForm.js
+│   ├── context/
+│   │   └── AuthContext.js
+│   ├── styles/
+│   │   └── index.css
+│   ├── routes/
+│   │   └── index.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
+└── tailwind.config.js
+
+tsms-frontend/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
+└── tailwind.config.js

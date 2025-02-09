@@ -1,14 +1,10 @@
-import { BrowserRouter as Router } from 'react-router-dom'
-import AppRoutes from './routes'
-import Layout from './components/layout/Layout'
-
 function App() {
   return (
-    <Router>
-      <Layout>
-        <AppRoutes />
-      </Layout>
-    </Router>
+    <div>
+      <h1 className="text-3xl font-bold">
+        TSMS - Student Teacher Management System
+      </h1>
+    </div>
   )
 }
 
