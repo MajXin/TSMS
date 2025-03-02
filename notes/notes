@@ -1,0 +1,7 @@
+Frontend - 
+
+tailwind css - 
+npm install tailwindcss @tailwindcss/vite
+
+react router - 
+- npm install react-router-dom
